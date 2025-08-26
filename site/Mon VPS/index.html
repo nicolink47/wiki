@@ -340,6 +340,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Docker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#docker-compose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Docker-Compose
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#portainer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Portainer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -446,6 +470,37 @@ dans les milieux clouds (même si pas forcément présenté comme moi).</p>
 </blockquote>
 <hr />
 <h4 id="docker">Docker<a class="headerlink" href="#docker" title="Permanent link">&para;</a></h4>
+<p>Docker est un logiciel qui permet de lancer des applications dans des <strong>environnements appelés “conteneurs”.</strong></p>
+<p>Un <strong>conteneur</strong> est une instance isolée du reste de la machine hôte (ici, mon serveur Rocky Linux). Contrairement à la virtualisation complète, la conteneurisation utilise seulement une partie des ressources du système hôte, ce qui la rend plus <strong>légère et rapide.</strong></p>
+<p>L’intérêt de Docker est de <strong>faciliter et automatiser le déploiement d’applications ou de services.</strong> Plutôt que de configurer un serveur de A à Z à chaque fois, on utilise des <strong>images Docker</strong> existantes et on les déploie en définissant certains paramètres.</p>
+<p>Cela permet notamment :</p>
+<ol>
+<li>
+<p>Un déploiement de serveur <strong>prévisible et reproductible.</strong></p>
+</li>
+<li>
+<p>Une application qui fonctionne <strong>rapidement et sans configuration complexe.</strong></p>
+</li>
+<li>
+<p>Une meilleure <strong>sécurité grâce à l’isolation des conteneurs.</strong></p>
+</li>
+</ol>
+<p>Pour rendre <strong>Docker</strong> plus <em>puissant et efficace</em>, je lui associe deux outils:
+- <strong>Docker-Compose</strong> : outil pour <strong>définir et lancer plusieurs conteneurs ensemble via un fichier de configuration unique.</strong>
+- <strong>Portainer</strong> : interface web pour <strong>gérer et superviser</strong> facilement Docker et ses conteneurs.</p>
+<h5 id="docker-compose">Docker-Compose<a class="headerlink" href="#docker-compose" title="Permanent link">&para;</a></h5>
+<p>Voilà à quoi ressemble un fichier docker-compose.yml:
+<img alt="" src="../imgs/dockercompose.png" /></p>
+<p>Il y a deux images dockers utilisés <a href="../Nextcloud/">Nextcloud</a> et Nginx.
+Elles fonctionnent ensembles avec leurs <strong>ports et volumes associés.</strong>
+- <strong>Les ports</strong> permettent de <strong>"rendre publique" le service désiré.</strong>
+- <strong>Les volumes</strong> sont des <strong>espaces de stockages persistant</strong>, les <strong>fichiers</strong> dessus peuvent être <strong>modifier, effacé ou créer.</strong> Et deviennent effectifs au redémarrage du
+conteneur.</p>
+<blockquote>
+<p>On peut voir les volumes comme des tiroirs externes. Supprimer un conteneur ne supprime pas un volume.</p>
+</blockquote>
+<h5 id="portainer">Portainer<a class="headerlink" href="#portainer" title="Permanent link">&para;</a></h5>
+<p><img alt="" src="../imgs/portainer1.png" /></p>
 
 
 

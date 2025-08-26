@@ -72,3 +72,37 @@ Tous avec **le certificat SSL (HTTPS)**
 ---
 
 #### Docker
+
+Docker est un logiciel qui permet de lancer des applications dans des **environnements appelés “conteneurs”.**
+
+Un **conteneur** est une instance isolée du reste de la machine hôte (ici, mon serveur Rocky Linux). Contrairement à la virtualisation complète, la conteneurisation utilise seulement une partie des ressources du système hôte, ce qui la rend plus **légère et rapide.**
+
+L’intérêt de Docker est de **faciliter et automatiser le déploiement d’applications ou de services.** Plutôt que de configurer un serveur de A à Z à chaque fois, on utilise des **images Docker** existantes et on les déploie en définissant certains paramètres.
+
+Cela permet notamment :
+
+1. Un déploiement de serveur **prévisible et reproductible.**
+
+2. Une application qui fonctionne **rapidement et sans configuration complexe.**
+
+3. Une meilleure **sécurité grâce à l’isolation des conteneurs.**
+
+Pour rendre **Docker** plus *puissant et efficace*, je lui associe deux outils:
+- **Docker-Compose** : outil pour **définir et lancer plusieurs conteneurs ensemble via un fichier de configuration unique.**
+- **Portainer** : interface web pour **gérer et superviser** facilement Docker et ses conteneurs.
+
+##### Docker-Compose
+Voilà à quoi ressemble un fichier docker-compose.yml:
+![](imgs/dockercompose.png)
+
+Il y a deux images dockers utilisés [Nextcloud](Nextcloud.md) et Nginx.
+Elles fonctionnent ensembles avec leurs **ports et volumes associés.**
+- **Les ports** permettent de **"rendre publique" le service désiré.**
+- **Les volumes** sont des **espaces de stockages persistant**, les **fichiers** dessus peuvent être **modifier, effacé ou créer.** Et deviennent effectifs au redémarrage du
+conteneur.
+
+> On peut voir les volumes comme des tiroirs externes. Supprimer un conteneur ne supprime pas un volume.
+
+
+##### Portainer
+![](imgs/portainer1.png)
