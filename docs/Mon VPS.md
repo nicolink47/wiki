@@ -55,8 +55,9 @@ Voici un extrait de mon fichier de configuration nginx:
 ![](imgs/nginx.png)
 
 Le fichier présente 3 Serveurs: 
-- 2 web en local 
-- 1 utilisant le reverse proxy. 
+
+- 2 web en local
+- 1 utilisant le reverse proxy
 
 Tous avec **le certificat SSL (HTTPS)** 
 
