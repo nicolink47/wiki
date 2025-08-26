@@ -68,4 +68,6 @@ Tous avec **le certificat SSL (HTTPS)**
 > 1) Nginx ne lis pas les markdowns le passage écrit `index.md` est une faute de frappe.<br>
 > 2) Ont utilise souvent des adresses ip locales pour le reverse proxy, mais ici j'utilise une autre méthode.
 
+---
+
 #### Docker
