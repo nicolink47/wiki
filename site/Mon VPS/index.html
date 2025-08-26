@@ -485,17 +485,17 @@ dans les milieux clouds (même si pas forcément présenté comme moi).</p>
 <p>Une meilleure <strong>sécurité grâce à l’isolation des conteneurs.</strong></p>
 </li>
 </ol>
-<p>Pour rendre <strong>Docker</strong> plus <em>puissant et efficace</em>, je lui associe deux outils:
-- <strong>Docker-Compose</strong> : outil pour <strong>définir et lancer plusieurs conteneurs ensemble via un fichier de configuration unique.</strong>
-- <strong>Portainer</strong> : interface web pour <strong>gérer et superviser</strong> facilement Docker et ses conteneurs.</p>
+<p>Pour rendre <strong>Docker</strong> plus <em>puissant et efficace</em>, je lui associe deux outils:<br>
+- <strong>Docker-Compose</strong> : outil pour <strong>définir et lancer plusieurs conteneurs ensemble via un fichier de configuration unique.</strong><br>
+- <strong>Portainer</strong> : interface web pour <strong>gérer et superviser</strong> facilement Docker et ses conteneurs.<br></p>
 <h5 id="docker-compose">Docker-Compose<a class="headerlink" href="#docker-compose" title="Permanent link">&para;</a></h5>
 <p>Voilà à quoi ressemble un fichier docker-compose.yml:
 <img alt="" src="../imgs/dockercompose.png" /></p>
 <p>Il y a deux images dockers utilisés <a href="../Nextcloud/">Nextcloud</a> et Nginx.
-Elles fonctionnent ensembles avec leurs <strong>ports et volumes associés.</strong>
-- <strong>Les ports</strong> permettent de <strong>"rendre publique" le service désiré.</strong>
+Elles fonctionnent ensembles avec leurs <strong>ports et volumes associés.</strong><br>
+- <strong>Les ports</strong> permettent de <strong>"rendre publique" le service désiré.</strong><br>
 - <strong>Les volumes</strong> sont des <strong>espaces de stockages persistant</strong>, les <strong>fichiers</strong> dessus peuvent être <strong>modifier, effacé ou créer.</strong> Et deviennent effectifs au redémarrage du
-conteneur.</p>
+conteneur.<br></p>
 <blockquote>
 <p>On peut voir les volumes comme des tiroirs externes. Supprimer un conteneur ne supprime pas un volume.</p>
 </blockquote>

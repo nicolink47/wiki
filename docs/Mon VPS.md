@@ -87,19 +87,19 @@ Cela permet notamment :
 
 3. Une meilleure **sécurité grâce à l’isolation des conteneurs.**
 
-Pour rendre **Docker** plus *puissant et efficace*, je lui associe deux outils:
-- **Docker-Compose** : outil pour **définir et lancer plusieurs conteneurs ensemble via un fichier de configuration unique.**
-- **Portainer** : interface web pour **gérer et superviser** facilement Docker et ses conteneurs.
+Pour rendre **Docker** plus *puissant et efficace*, je lui associe deux outils:<br>
+- **Docker-Compose** : outil pour **définir et lancer plusieurs conteneurs ensemble via un fichier de configuration unique.**<br>
+- **Portainer** : interface web pour **gérer et superviser** facilement Docker et ses conteneurs.<br>
 
 ##### Docker-Compose
 Voilà à quoi ressemble un fichier docker-compose.yml:
 ![](imgs/dockercompose.png)
 
 Il y a deux images dockers utilisés [Nextcloud](Nextcloud.md) et Nginx.
-Elles fonctionnent ensembles avec leurs **ports et volumes associés.**
-- **Les ports** permettent de **"rendre publique" le service désiré.**
+Elles fonctionnent ensembles avec leurs **ports et volumes associés.**<br>
+- **Les ports** permettent de **"rendre publique" le service désiré.**<br>
 - **Les volumes** sont des **espaces de stockages persistant**, les **fichiers** dessus peuvent être **modifier, effacé ou créer.** Et deviennent effectifs au redémarrage du
-conteneur.
+conteneur.<br>
 
 > On peut voir les volumes comme des tiroirs externes. Supprimer un conteneur ne supprime pas un volume.
 
