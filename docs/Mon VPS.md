@@ -103,6 +103,18 @@ conteneur.<br>
 
 > On peut voir les volumes comme des tiroirs externes. Supprimer un conteneur ne supprime pas un volume.
 
+Pour exécuter ce fichier dans le dossier correspondant on utilise la commande `docker compose up -d`
 
 ##### Portainer
-![](imgs/portainer1.png)
+![](imgs/portainer1.png) *Page d'acceuil de Portainer*
+
+Via ce portail on peut **superviser et gérer** les conteneurs.
+
+![](imgs/portainer2.png)*Liste de mes conteneurs*
+
+Ainsi comme vous pouvez le remarqué je peut par exemple **redémarrer, supprimer ou ajouter un nouveau conteneur.**
+
+**Portainer** permet beaucoup d'autres choses, en fin de compte, avec, on peut **utiliser Docker sans forcément passer par la ligne de commande.**
+
+> ⚠️ ***Mon conseil:*** Ne pas se reposer uniquement sur une interface graphique. Utiliser le **terminal + les outils graphiques** pour **comprendre et contrôler** son environnement Docker du
+> mieux possible.
