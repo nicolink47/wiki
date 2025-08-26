@@ -64,8 +64,8 @@ Tous avec **le certificat SSL (HTTPS)**
 
 - Le `serveur nc.infotechservices.xyz`, utilise la 'commande' `proxy_pass` ainsi **le reverse proxy pointe vers l'adresse locale d'un serveur web qui n'est pas géré directement par nginx.**
 
-> Précisions:
-> 1) Nginx ne lis pas les markdowns le passage écrit `index.md` est une faute de frappe.
+> Précisions:<br>
+> 1) Nginx ne lis pas les markdowns le passage écrit `index.md` est une faute de frappe.<br>
 > 2) Ont utilise souvent des adresses ip locales pour le reverse proxy, mais ici j'utilise une autre méthode.
 
-
+#### Docker
