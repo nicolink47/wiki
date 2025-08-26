@@ -41,6 +41,6 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ton-wiki
+      link: https://github.com/nicolink47/wiki
   generator: false
 copyright: Copyright &copy; 2025 Infotechservices - Powered with Material from Mkdocs
