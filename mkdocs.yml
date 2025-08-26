@@ -1,0 +1,46 @@
+site_name: Wiki ITS
+site_url: https://wiki.infotechservices.xyz
+
+theme:
+  name: material
+  language: fr
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  palette:
+    primary: teal
+    scheme: slate
+    accent: deep-orange
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - navigation.footer
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.highlight
+  - pymdownx.details
+  - pymdownx.emoji
+  - attr_list
+
+nav:
+  - Accueil: index.md
+  - VPS: Mon VPS.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ton-wiki
+  generator: false
+copyright: Copyright &copy; 2025 Infotechservices - Powered with Material from Mkdocs
