@@ -95,7 +95,7 @@ Pour rendre **Docker** plus *puissant et efficace*, je lui associe deux outils:<
 Voilà à quoi ressemble un fichier docker-compose.yml:
 ![](imgs/dockercompose.png)
 
-Il y a deux images dockers utilisés [Nextcloud](Nextcloud.md) et Nginx.
+Il y a deux images dockers utilisés Nextcloud et Nginx.
 Elles fonctionnent ensembles avec leurs **ports et volumes associés.**<br>
 - **Les ports** permettent de **"rendre publique" le service désiré.**<br>
 - **Les volumes** sont des **espaces de stockages persistant**, les **fichiers** dessus peuvent être **modifier, effacé ou créer.** Et deviennent effectifs au redémarrage du
