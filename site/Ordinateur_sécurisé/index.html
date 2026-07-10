@@ -354,6 +354,167 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#procedure-dinstallation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Procédure d'installation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Procédure d&#39;installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iso-et-live-usb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ISO et Live USB
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#partitionnement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Partitionnement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installation-du-systeme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation du Système
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration-de-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration de base
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration de base">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fuseau-horaire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fuseau horaire
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuration-de-la-langue" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration de la langue
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nom-de-la-machine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nom de la machine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clavier-de-la-console" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clavier de la console
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creation-des-utilisateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Création des utilisateurs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Création des utilisateurs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installation-de-sudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation de sudo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration-de-mkinitcpio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration de mkinitcpio
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation-du-chargeur-de-demarrage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation du chargeur de démarrage
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -442,8 +603,8 @@ Lorsque j’aurai une carte graphique, j’utiliserai la technique du <strong>VF
 <blockquote>
 <p>Pour de plus amples informations à propos de mon matos physique et du BIOS Libre Coreboot, voir ici.</p>
 </blockquote>
-<h1 id="procedure-dinstallation">Procédure d'installation<a class="headerlink" href="#procedure-dinstallation" title="Permanent link">&para;</a></h1>
-<h2 id="iso-et-live-usb">ISO et Live USB<a class="headerlink" href="#iso-et-live-usb" title="Permanent link">&para;</a></h2>
+<h2 id="procedure-dinstallation">Procédure d'installation<a class="headerlink" href="#procedure-dinstallation" title="Permanent link">&para;</a></h2>
+<h3 id="iso-et-live-usb">ISO et Live USB<a class="headerlink" href="#iso-et-live-usb" title="Permanent link">&para;</a></h3>
 <p>Il faut évidemment récupérer l'ISO officiel d'Artix Linux sur le site (via les miroirs les plus proches) et créer notre clé Bootable, le plus rapide sera avec la commande 'dd'</p>
 <div class="highlight"><pre><span></span><code>dd<span class="w"> </span><span class="k">if</span><span class="o">=</span>artix-base-<span class="o">{</span>votre_init_choisi<span class="o">}</span>-<span class="o">{</span>date_de_dernière_release<span class="o">}</span>-x86_64.iso<span class="w"> </span><span class="nv">of</span><span class="o">=</span>/dev/sd<span class="o">{</span>x<span class="o">}</span><span class="w"> </span><span class="nv">status</span><span class="o">=</span>progress<span class="w"> </span><span class="nv">bs</span><span class="o">=</span>4M<span class="p">;</span><span class="w"> </span>sync
 </code></pre></div>

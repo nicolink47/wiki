@@ -69,9 +69,10 @@ Je vais donc partir sur une base Linux minimaliste : **Artix Linux**.
 
 > Pour de plus amples informations à propos de mon matos physique et du BIOS Libre Coreboot, voir ici.
 
-# Procédure d'installation
 
-## ISO et Live USB
+## Procédure d'installation
+
+### ISO et Live USB
 Il faut évidemment récupérer l'ISO officiel d'Artix Linux sur le site (via les miroirs les plus proches) et créer notre clé Bootable, le plus rapide sera avec la commande 'dd'
 
 ```Bash
