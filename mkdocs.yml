@@ -38,6 +38,7 @@ markdown_extensions:
 nav:
   - Accueil: index.md
   - VPS: Mon VPS.md
+  - KVM: Ordinateur_sécurisé.md
 extra:
   social:
     - icon: fontawesome/brands/github
