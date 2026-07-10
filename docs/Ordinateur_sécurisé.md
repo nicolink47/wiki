@@ -400,6 +400,8 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 Si aucune erreur n'est affichée, notre système est maintenant capable de démarrer, de déverrouiller automatiquement la partition LUKS et de lancer Artix Linux.
 
+## Fin d'installation
+
 Il ne reste plus qu'a installer les premiers programmes ainsi que l'interface graphique souhaité. Pour ma part j'ai choisi hyprland avec DankMaterialShell, mais vous pouvez prendre
 ce que vous souhaiter.
 
