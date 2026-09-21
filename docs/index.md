@@ -5,6 +5,6 @@ Cet espace regroupe la documentation de mes différents projets ainsi que mes no
 Ce wiki est en constante évolution : certains articles peuvent être incomplets ou en cours de rédaction. Merci pour votre patience et votre compréhension.
 
 ## 🗂 Table des Matières
-- [Mon VPS](Mon VPS.md)
+- [Mon VPS](vps.md)
 - [Ordinateur sécurisé avec KVM](Ordinateur_sécurisé.md)
 - [Mon CV](mon_cv.md)

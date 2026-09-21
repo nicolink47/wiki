@@ -37,11 +37,12 @@ markdown_extensions:
 
 nav:
   - Accueil: index.md
-  - VPS: Mon VPS.md
+  - VPS: vps.md
   - KVM: Ordinateur_sécurisé.md
+  - CV: mon_cv.md
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/nicolink47/wiki
+      link: https://github.com/nicolink47
   generator: false
 copyright: Copyright &copy; 2025 Infotechservices - Powered with Material from Mkdocs
