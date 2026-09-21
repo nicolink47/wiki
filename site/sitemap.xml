@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://wiki.infotechservices.xyz/</loc>
-         <lastmod>2026-07-10</lastmod>
+         <lastmod>2026-09-21</lastmod>
     </url>
     <url>
          <loc>https://wiki.infotechservices.xyz/Mon%20VPS/</loc>
-         <lastmod>2026-07-10</lastmod>
+         <lastmod>2026-09-21</lastmod>
     </url>
     <url>
          <loc>https://wiki.infotechservices.xyz/Nextcloud/</loc>
-         <lastmod>2026-07-10</lastmod>
+         <lastmod>2026-09-21</lastmod>
     </url>
     <url>
          <loc>https://wiki.infotechservices.xyz/Ordinateur_s%C3%A9curis%C3%A9/</loc>
-         <lastmod>2026-07-10</lastmod>
+         <lastmod>2026-09-21</lastmod>
+    </url>
+    <url>
+         <loc>https://wiki.infotechservices.xyz/mon_cv/</loc>
+         <lastmod>2026-09-21</lastmod>
     </url>
 </urlset>
