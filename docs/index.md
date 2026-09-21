@@ -7,3 +7,4 @@ Ce wiki est en constante évolution : certains articles peuvent être incomple
 ## 🗂 Table des Matières
 - [Mon VPS](Mon VPS.md)
 - [Ordinateur sécurisé avec KVM](Ordinateur_sécurisé.md)
+- [Mon CV](mon_cv.md)
